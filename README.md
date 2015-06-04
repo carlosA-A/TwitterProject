@@ -3,6 +3,7 @@ This is a simple program that searches twitter for tweets containing specific wo
 
 Requirements:
 tweepy
+
 nltk
 
 1-Insert the secret key and tokens in the file "Find tweet word hashtag.py"
