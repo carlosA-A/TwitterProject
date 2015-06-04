@@ -15,7 +15,7 @@ class listener(StreamListener):
         try:
             textTweet= status.text+"\n"
             print(textTweet)
-            saveFile = open("Corvet.csv","a")
+            saveFile = open("FileName.csv","a")
             saveFile.write(textTweet)
             saveFile.write("\n")
             saveFile.close()
