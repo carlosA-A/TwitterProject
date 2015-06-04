@@ -2,6 +2,7 @@
 This is a simple program that searches twitter for tweets containing specific words. It creates a CSV file from where the stop words are removed and the words that appear repeated on the tweets are listed on a new text file called results.
 
 Requirements:
+
 tweepy
 
 nltk
