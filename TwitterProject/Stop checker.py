@@ -18,7 +18,7 @@ def removeStop():
             stopWordList=tokenizer.tokenize(str(text))
 
     #Open csv file with tweets downloaded and tokenize them
-    file=open('Corvet.csv', 'r')
+    file=open('FileName.csv', 'r')
     with file as text_file:
         text = text_file.read()
         tokenizer = RegexpTokenizer(r'\w+')
